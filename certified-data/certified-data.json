@@ -1,7 +1,7 @@
 {
 	"certified": {
 		"testGround": {
-			"certifiedLatest": "9.0.0",
+			"certifiedCurrent": "9.0.0",
 			"certifiedList": [
 				"9.0.0",
 				"8.0.0",
@@ -14,7 +14,7 @@
 			"view": "https://senzing.github.io/test-ground"
 		},
 		"streamProducer": {
-			"certifiedLatest": "1.2.2",
+			"certifiedCurrent": "1.2.2",
 			"certifiedList": [
 				"1.2.2",
 				"1.2.0",
