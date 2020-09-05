@@ -1,5 +1,25 @@
 {
 	"certified": {
+		"apiServer": {
+			"certifiedCurrent": "2.0.1",
+			"certifiedList": [
+				"2.0.1",
+				"1.8.5"
+			],
+			"description": "Server of Senzing REST API.",
+			"title": "Senzing API server",
+			"view": "https://senzing.github.io/senzing-api-server"
+		},
+		"entitySearchWebApp": {
+			"certifiedCurrent": "2.0.0",
+			"certifiedList": [
+				"2.0.0",
+				"1.2.2"
+			],
+			"description": "A lightweight http server providing a web UI for entity search through the senzing api server.",
+			"title": "Entity Search web app",
+			"view": "https://senzing.github.io/entity-search-web-app"
+		},
 		"testGround": {
 			"certifiedCurrent": "9.0.0",
 			"certifiedList": [
@@ -22,10 +42,27 @@
 				"1.1.3"
 			],
 			"description": "Produce a stream from different input formats.",
-			"thumbnail": "https://senzing.github.io/stream-producer/img/thumbnail.png",
 			"title": "Stream Producer",
 			"view": "https://senzing.github.io/stream-producer"
+		},
+		"redoer": {
+			"certifiedCurrent": "1.3.3",
+			"certifiedList": [
+				"1.3.2"
+			],
+			"description": "Perform Senzing Redo operations.",
+			"title": "Redoer",
+			"view": "https://senzing.github.io/redoer"
+		},
+		"streamLoader": {
+			"certifiedCurrent": "1.6.0",
+			"certifiedList": [
+				"1.6.0"
+			],
+			"description": "Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.",
+			"title": "Stream Loader",
+			"view": "https://senzing.github.io/stream-loader"
 		}
 	},
-	"updated": "2020-09-04"
+	"updated": "2020-09-05"
 }
