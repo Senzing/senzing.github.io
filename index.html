@@ -7,7 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="support@senzing.com">
 <title>Senzing Certified</title>
-<link rel="canonical" href="https://senzing.github.io/">
+<link rel="canonical" href="https://certified.senzing.com/">
 <link rel="icon" type="image/png" sizes="32x32"
     href="/images/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96"
@@ -107,17 +107,17 @@ min-width
     <script>
     $(document).ready(function() {
       $.getJSON("certification/data/certified-artifacts.json", function(data) {
-        certified = data.certified
+        certified = data.data.certified
         var rowElement = document.getElementById( "gallery" )
 
         $.each(certified, function(key, value) {
 
           <!-- Pull values from JSON safely. -->
 
-          var thumbnail = value.thumbnail != null ? value.thumbnail : "https://senzing.github.io/test-ground/img/thumbnail.png"
+          var thumbnail = value.thumbnail != null ? value.thumbnail : "https://certified.senzing.com/test-ground/img/thumbnail.png"
           var title = value.title != null ? value.title : "Untitled"
           var description = value.description != null ? value.description : "No description"
-          var view = value.view != null ? value.view : "https://senzing.github.io/test-ground"
+          var view = value.view != null ? value.view : "https://certified.senzing.com/test-ground"
           var certifiedCurrent = value.certifiedCurrent != null ? value.certifiedCurrent : "0.0.0"
 
           <!-- Construct HTML -->
