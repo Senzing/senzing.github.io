@@ -1,3 +1,3 @@
 # senzing.github.io
 
-Organization site at http://hub.senzing.com
+Organization site at https://hub.senzing.com
