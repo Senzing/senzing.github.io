@@ -4,13 +4,13 @@
   "words": [
     "CCLA",
     "CODEOWNER",
-    "ICLA",
-    "Senzing",
+    "cooldown",
     "esbenp",
     "googleba",
+    "ICLA",
+    "kernelsam",
+    "Senzing",
     "stackoverflow"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }
